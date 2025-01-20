@@ -1,0 +1,175 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Soft light blue background */
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #003366; /* Dark blue */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 3px solid #FFD700; /* Gold border */
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #003366; /* Dark blue */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#services ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+#services li {
+    margin: 15px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #FFD700; /* Gold icon color */
+}
+
+/* Package A, B, and Other Services Section */
+.service-package {
+    background-color: #e6f2ff; /* Light blue */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service-package h3 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.service-package h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #003366;
+}
+
+.service-package p, .service-package ul {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.service-package ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.service-package li {
+    margin: 5px 0;
+}
+
+/* About Us Section */
+#about {
+    background-color: #e6f2ff; /* Light blue */
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #003366; /* Dark blue */
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #003366; /* Dark blue */
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#contact a {
+    color: #003366; /* Dark blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
